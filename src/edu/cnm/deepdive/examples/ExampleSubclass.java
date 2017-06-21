@@ -31,4 +31,10 @@ public class ExampleSubclass extends ExampleClass {
 		System.out.println("ExampleSubclass(int)");
 	}
 
+	public static void main(String[] args) {
+		ExampleSubclass example = new ExampleSubclass();
+		System.out.println(example.value);
+	}
+	
+	
 }
